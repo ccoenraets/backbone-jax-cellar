@@ -1,4 +1,4 @@
-# Wine Cellar Application #
+# Backbone.js + Java Wine Cellar Application #
 
 The Wine Cellar application is documented [here](http://coenraets.org).
 
