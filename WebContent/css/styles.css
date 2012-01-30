@@ -3,11 +3,11 @@
   font-size: 18px;
 }
 
-.header {
+#header {
 	padding-top: 5px;
 }
 
-.leftArea {
+#sidebar {
 	position: absolute;
 	left: 10px;
 	top: 70px;
@@ -17,22 +17,20 @@
 	overflow-y: scroll;
 }
 
+#content {
+    position: absolute;
+   	top: 70px;
+   	bottom: 20px;
+   	left:300px;
+   	right:20px;
+}
+
 .form-left-col {
-	position: absolute;
-	top: 70px;
-	bottom: 20px;
-	left:300px;
-	overflow-y: scroll;
-	width:300px;
+	width:310px;
+    float: left;
 }
 
 .form-right-col {
-	position: absolute;
-	top: 70px;
-	bottom: 20px;
-	left:650px;
-	overflow-y: scroll;
-	width:270px;
 }
 
 ul {

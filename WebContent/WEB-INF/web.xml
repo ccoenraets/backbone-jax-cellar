@@ -11,18 +11,18 @@
 		<param-value>org.coenraets</param-value>
 	</init-param>
 	-->
-	
+
 	<init-param>
   		<param-name>com.sun.jersey.config.property.packages</param-name>
   		<param-value>org.coenraets;org.codehaus.jackson.jaxrs</param-value>
 	</init-param>
-	
+
 	<load-on-startup>1</load-on-startup>
 </servlet>
 
 <servlet-mapping>
 	<servlet-name>Jersey</servlet-name>
-	<url-pattern>/rest/*</url-pattern>
+	<url-pattern>/api/*</url-pattern>
 </servlet-mapping>
 
 </web-app>
